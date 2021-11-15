@@ -1,3 +1,2 @@
 '*.{js,jsx,ts,tsx}': eslint
-'*.{yml,yaml,toml}': eslint --fix
-'package.json': eslint --fix
+'*.{json,yml,yaml,toml}': eslint --fix

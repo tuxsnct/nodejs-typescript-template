@@ -15,8 +15,8 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint . src package.json",
-    "lint:fix": "eslint . src package.json --fix",
+    "lint": "eslint './**/*.{js,ts,json,yaml,yml,toml}'",
+    "lint:fix": "npm run lint --fix",
     "prepare": "husky install",
     "postinstall": "husky install"
   },
